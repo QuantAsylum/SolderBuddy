@@ -8,3 +8,5 @@ SolderBuddy aggregates the parts, so that you place all parts of the same value 
 In the image above, the upper region of the app allows you to enter the silk layer of the gerber, and also the placements file. Once specified, you hit the LOAD button. Three views are presented. On the left, you have a large overview image witht the part location marked. In the center window, you see the part location marked with additional zoom, and finally, in the right window, you see the part location marked with even more zoom. 
 
 The idea here is to make it easy to get your bearings quickly without having to pick up the mouse. When the part is placed, just press the 'next' button and the next placement will show up. 
+
+For R's and C's, we generally will machine place if more than 5 parts IF the part is common and already hung on a feeder. If fewer than 5 parts, it's usually faster to hand place when building a 1 or 2 prototypes. For BGA, we always machine place. But just about everything else can be hand placed fairly quickly, even 0402. 
